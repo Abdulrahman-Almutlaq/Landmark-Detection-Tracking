@@ -46,6 +46,4 @@ The SLAM function takes in data, the number of time steps (N), the number of lan
 
 ### Implementing Graph SLAM
 
-The notebook outlines the implementation of the SLAM functionality. We updated the constraint matrices Omega and Xi to account for motion and measurement constraints. Remember that the solution to these matrices, mu, contains the (x, y) coordinates of the robot and landmark positions.
-
-Enjoy working on your project!
+In this section, we delved into the actual process of developing the SLAM (Simultaneous Localization and Mapping) functionality. We outlined the steps involved and the adjustments we made to the constraint matrices, Omega and Xi, to account for motion and measurement constraints. It's important to note that the outcome of these computations, represented by the matrix mu, encompassed both the trajectory of the robot and the positions of all landmarks, each defined by their (x, y) coordinates.

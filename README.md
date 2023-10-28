@@ -6,11 +6,11 @@ In this project, we'll explore Simultaneous Localization and Mapping (SLAM) by d
 
 ### Robot Class
 
-In this notebook, you will explore the `robot` class that represents the robot in the 2D grid world. The robot has associated uncertainties in both motion and sensors. The class provides methods for moving the robot, but the `sense` function is left unimplemented. The primary goal of this notebook is to understand the robot's movement and how it keeps track of landmarks in the grid world.
+In this notebook, you will delve into the robot class, which serves as the representation of a robot in the 2D grid world. This robot is equipped with uncertainties in both its motion and sensor capabilities. Within this class, you will find methods that allow the robot to perform movements and gather information about its environment. The main objective of this notebook is to gain insight into the robot's mobility and its ability to maintain awareness of landmarks within the grid world.
 
 ### Uncertainty
 
-Uncertainty is a critical aspect of robot motion and sensor data. This notebook explores the challenges posed by uncertainty in motion and how the robot's sensors can be affected. It also provides insights into how to account for measurement noise and a measurement range when the `sense` function is implemented.
+Uncertainty is a critical aspect of robot motion and sensor data. This notebook explores the challenges posed by uncertainty in motion and how the robot's sensors can be affected. It also provides insights into how to account for measurement noise and a measurement range.
 
 ## Notebook 2: Omega and Xi, Constraints
 
